@@ -1,0 +1,31 @@
+  html,
+  body {
+      height: 100%;
+      margin: 0;
+  }
+
+  body {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .content {
+      flex-grow: 1;
+  }
+
+  footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+  }
+
+
+  .bio-image-wrapper {
+      display: flex;
+      align-items: stretch;
+  }
+
+  .bio-image-wrapper .biography,
+  .bio-image-wrapper .image {
+      flex: 1;
+  }
